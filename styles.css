@@ -1,0 +1,152 @@
+/*
+CSS
+Folha em estilo em cascata
+*/
+
+/*UNIDADES DE MEDIDAS
+==> ABSOLUTAS
+
+PX (PIXELS)
+IN (INCHES/POLEGADAS)
+CM / MM (CENTIMETROS / MILIMETROS)
+
+==> RELATIVOS
+% CALCULA O TAMANHO RELATIVO AO ELEMENTO PAI 
+VW (VIEW WIDTH) 1VW  É 1% DA LARGURA DA JANELA DO NAVEGADOR
+VH (VIEW HEIGHT) 1 VH É 1 % DA ALTURA DA JANELA DO NAVEGADOR
+
+EM - É UMA UNIDADE RELATIVA AO ELEMENTO PAI 
+REM - É UMA UNIDADE RELATIVA AO ELEMENTO RAIZ
+*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    margin: 44px 2px 144px 76px;
+
+}
+
+.link-header {
+    Width: 126px;
+    Height: 29px;
+    margin-right: 23px;
+    color: #989D9C;
+    font-size: 24px;
+    Line-height: 29.26px;
+    cursor: pointer;
+}
+
+
+.button-header {
+    background-color: #665AE1;
+    Width: 130px;
+    Height: 41px;
+    border-radius: 20.5px;
+    font-size: 24px;
+    Line-height: 29.26px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 6px 22px 6px 21px;
+
+
+}
+
+.logo-imagem {
+    width: 580px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+
+}
+
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    color: #515151;
+}
+
+h2 {
+    height: 87px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 70.7px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32;
+    margin-bottom: 65px;
+}
+
+
+.button-main {
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    background-color: #ADFF00;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+    border: none;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-weight: 700px;
+
+
+}
+
+@media (max-width:600px) {
+    header {
+        display: none;
+    }
+
+    .logo-imagem {
+        width: 281px;
+        height: 317px;
+        margin-top: 149px;
+        margin-left: 23px;
+
+    }
+
+    h1 {
+        font-size: 50px;
+
+        display: block;
+        margin-top: -9px;
+        margin-left: -27px;
+    }
+
+    p {
+        display: none;
+
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-top: -15px;
+        margin-left: -19px;
+    }
+
+    .button-main {
+        width: 263px;
+        margin: -25px 0px 0px -56px;
+    }
+
+
+}
